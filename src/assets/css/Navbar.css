@@ -1,0 +1,28 @@
+.navbar .maxWidth {
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+.navLeft {
+    display: flex;
+}
+
+.navTab {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    padding: 1rem 2rem;
+    color: #ffffff;
+}
+
+.navRight {
+    display: flex;
+
+}
+
+.navIcon {
+    margin: 0 0.5rem;
+}
