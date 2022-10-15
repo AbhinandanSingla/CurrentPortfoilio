@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a9cf12c4.css",
+    "main.js": "/static/js/main.bbc7e24c.js",
+    "static/media/kali.jpg": "/static/media/kali.048e615f31ce937cf514.jpg",
+    "static/media/lockscreen2.jpg": "/static/media/lockscreen2.f163b534bc5aa19afc2a.jpg",
+    "static/media/lockscreen1.jpg": "/static/media/lockscreen1.7b5550a947c876748d3c.jpg",
+    "static/media/kali5.jpg": "/static/media/kali5.851fd9d0798290fb1a5b.jpg",
+    "static/media/kali4.jpg": "/static/media/kali4.7c03a22633d783af9e85.jpg",
+    "static/media/kaliBackground.png": "/static/media/kaliBackground.974df08acdc33b44402e.png",
+    "static/media/kali2.jpg": "/static/media/kali2.45d17967faedc2511b83.jpg",
+    "static/media/homeFolder.png": "/static/media/homeFolder.76d6b25578786d64f2f8.png",
+    "static/media/IMG_4824.JPG": "/static/media/IMG_4824.9fa4c68dc16f4adb9b23.JPG",
+    "static/media/kali3.jpg": "/static/media/kali3.ff52b4c1b04d294af58d.jpg",
+    "static/media/chrome.png": "/static/media/chrome.de360e29903e5d88d3d6.png",
+    "static/media/project.jpg": "/static/media/project.2273185734a7aab2c003.jpg",
+    "static/media/menu.png": "/static/media/menu.5cc0d45473ac461e06e4.png",
+    "static/media/icon-dev.svg": "/static/media/icon-dev.2a51ebae3899ae5ab67adf9875f02393.svg",
+    "static/media/icon-app.svg": "/static/media/icon-app.db860430683b57c1968ad231a13af0bf.svg",
+    "index.html": "/index.html",
+    "main.a9cf12c4.css.map": "/static/css/main.a9cf12c4.css.map",
+    "main.bbc7e24c.js.map": "/static/js/main.bbc7e24c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9cf12c4.css",
+    "static/js/main.bbc7e24c.js"
+  ]
+}
