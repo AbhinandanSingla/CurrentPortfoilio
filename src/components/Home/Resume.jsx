@@ -63,7 +63,7 @@ export const Resume = () => {
         <ol className="timeline">
             <li className="timeline_item">
                 <div className="timeline_item_title">
-                    Thapar Institute of engineering and technology
+                    Won Smart India Hackton
                 </div>
                 <span>2021 - current</span>
                 <p className="timeline_text">

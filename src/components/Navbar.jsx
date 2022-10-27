@@ -12,6 +12,7 @@ export const Navbar = () => {
     const [value, onChange] = useState(new Date());
     const [showDate, setShowDate] = useState(false);
 
+
     return (<div className={'navbar'}>
         <div className="maxWidth">
             <div className="navLeft">

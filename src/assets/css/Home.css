@@ -5,7 +5,7 @@
 }
 
 
-.portfolio::-webkit-scrollbar {
+::-webkit-scrollbar {
     display: none;
 }
 
@@ -186,6 +186,7 @@
 }
 
 .portfolio .right {
+    overflow: scroll;
     grid-area: 1 / 2 / 2 / 6;
 }
 
@@ -276,7 +277,10 @@
 }
 
 .folderCard .navbar {
-    width: 100%;
+    background: #23252e;
+    position: fixed;
+    width: -webkit-fill-available;
+    z-index: 200;
     display: flex;
     justify-content: space-between;
 
@@ -378,10 +382,12 @@
     padding-left: 2rem;
 }
 
-.resume {
-    margin-top: 3rem;
+.resume, .about, .projects {
+    margin-top: 10rem;
 }
-
+.contact{
+    margin-top: 6rem;
+}
 .resumeHeading {
     display: flex;
     align-items: center;

@@ -11,7 +11,6 @@ export const LockScreen = () => {
     const {lock, setLock} = useContext(DataContext);
     gsap.registerPlugin(CSSRulePlugin);
     const comp = useRef();
-    const circle = useRef();
     useEffect(() => {
         if (lock) {
             let ctx = gsap.context(() => {
@@ -24,11 +23,12 @@ export const LockScreen = () => {
             return () => ctx.revert(); //
         } else {
             let ctx = gsap.context(() => {
-                gsap.to(comp.current, {
-                    top: "-100%",
-                    duration: 2
+                gsap.from(comp.current, {
+                    top: "0",
+                    duration: 2,
+                    ease: Power1.easeIn
                 });
-            }, comp); // <- IMPORTANT! Scopes selector text
+            }, comp);
             return () => ctx.revert(); //
         }
     }, [lock])
@@ -41,7 +41,7 @@ export const LockScreen = () => {
             </figure>
 
             <div className="mouse" onClick={() => setLock(false)}>
-                <div className="circles" ref={circle}>
+                <div className="circles">
                     <span className="circle1 "></span>
                     <span className="circle2 "></span>
                     <span className="circle3 "></span>

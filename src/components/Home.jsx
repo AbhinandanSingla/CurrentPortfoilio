@@ -46,6 +46,7 @@ export function Home() {
     const [selectedBackground, setBackground] = useState(0);
     let [homeFolder, setFolder] = useState(false);
     let [settingsFolder, setSettings] = useState(false);
+
     return (<>
         <div className="home">
             <div className="maxWidth">
@@ -177,7 +178,6 @@ export function Home() {
                         <img src={backgrounds[selectedBackground]} alt=""/>
                     </figure>
                 </div>
-                <LockScreen/>
             </div>
         </div>
     </>);
